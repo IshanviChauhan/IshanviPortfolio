@@ -24,19 +24,33 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "Pursuing a B.Tech in Computer Science Engineering at ABES Engineering College, with hands-on experience in Python, SQL, HTML, and CSS. Proficient in JavaScript and Java, and certified in Machine Learning and Data Science. Seeking opportunities to apply my technical skills in a dynamic environment. Adaptable, collaborative, and eager to learn.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Python",
+  "SQL",
+  "JavaScript",
+  "Java",
+  "C (programming language)",
+  "C++ ",
+  "HTML5",
+  "CSS3",
+  "Responsive Design",
+  "Git",
+  "GitHub",
+  "OS",
+  "Data Analysis",
+  "Relational Databases",
+  "Microsoft Office Suite",
+  "Power Bi",
+  "Visual Studio Code",
+  "Problem-Solving",
+  "Debugging",
+  "Code Optimization", 
 ];
 
 /**
@@ -56,7 +70,10 @@ const About = () => {
           backgroundColor: "white",
           width: "50%",
           padding: "4rem",
-          margin: "3rem auto",
+          display: "flex",
+          flexDirection: "column",
+          margin: "auto",
+          marginTop: "-5rem",
           textAlign: "center",
         }}
       >

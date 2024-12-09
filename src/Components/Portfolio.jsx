@@ -19,9 +19,6 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
-
-const imageAltText = "desktop with books and laptop";
 
 /**
  * Project list
@@ -31,43 +28,32 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Multi-Tasking Bot for Customized Automation ",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Designed a bot to automate social networking tasks. Enabled knowledge sharing aligned with Industry 4.0 standards. ",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Statistical Approach for Society Maintenance Portal Using Machine Learning and AI",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Developed an AI-powered portal to optimize society maintenance. Incorporated predictive models for resource allocation.",
   },
   {
-    title: "My Resume Site",
+    title: "React TypeScript Speed Typing Test ",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Developed a one-minute speed typing test app using React and TypeScript to measure typing accuracy and speed. Implemented real-time updates and dynamic performance metrics for an engaging user experience.",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "IP Address Finder App ",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Built a ReactJS app to fetch and display the user's IP address and approximate location on a map. Integrated Mapbox API and IPAPI for real-time location mapping.",
   },
 ];
 
 const Portfolio = () => {
   return (
-    <section className="padding" id="portfolio">
+    <section className="padding" id="portfolio" style={{ marginTop: "-5rem"}}>
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
-        <div style={{ maxWidth: "40%", alignSelf: "center" }}>
-          <img
-            src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
-            alt={imageAltText}
-          />
-        </div>
         <div className="container">
           {projectList.map((project) => (
             <div className="box" key={project.title}>
